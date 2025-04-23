@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fefefe;
+  background-image: url(images/microphone.jpg);background-size:calc(100% / 5); 
+  background-repeat:repeat;
+}
+
+header {
+  background: #000;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  color: #aaa;
+}
+
+.name{
+  color: #fefefe;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.artist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.artist img {
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 2rem;
+  max-width: 100%;
+}
+
+.artist div {
+  flex: 1;
+}
+
+.register {
+  padding: 2rem;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.register input,
+.register textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.register button {
+  background-color: #e50914;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#response {
+  color: #0f0;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #000;
+  padding: 1rem;
+  text-align: center;
+  color: #aaa;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+footer .socials a:hover {
+   color: #fff;
+}

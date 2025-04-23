@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Motivational Artists</title>
+  <link rel="stylesheet" href="styles/motivational artist.css"/>
+</head>
+<body style="background-image: url(images/microphone.jpg);background-size:calc(100% / 5); background-repeat:repeat;">
+  <header>
+    <h1>Legends & Stars of Music</h1>
+    <p>A motivation for upcoming artists</p>
+  </header>
+
+  <main>
+    <section class="artist" id="fela">
+      <img src="images/fela.jpg" alt="Fela Kuti"/>
+      <div>
+        <h2 class="name">Fela Kuti</h2>
+        <p>The pioneer of Afrobeat, Fela Anikulapo Kuti, used his music to fight injustice. Born in 1938 and passed in 1997, he is considered the father of African music resistance. His legacy continues to inspire artists globally.</p>
+      </div>
+    </section>
+
+    <section class="artist" id="wizkid">
+      <img src="images/wizkid.jpg" alt="Wizkid"/>
+      <div>
+        <h2 class="name">Wizkid</h2>
+        <p>Wizkid, aka Starboy, rose from Ojuelegba to international stages. He’s the first Afrobeats artist to sell out the O2 Arena in London. With Grammy wins and collaborations with Drake and Beyoncé, he’s changed the global view of Nigerian music.</p>
+      </div>
+    </section>
+
+    <section class="artist" id="burnaboy">
+      <img src="images/burnaboy.jpg" alt="Burna Boy"/>
+      <div>
+        <h2 class="name">Burna Boy</h2>
+        <p>The African Giant. Burna Boy speaks of African pride, struggle, and strength. Grammy award winner. His albums “Twice as Tall” and “African Giant” shook the global music space.</p>
+      </div>
+    </section>
+
+    <section class="artist" id="davido">
+      <img src="images/davido.jpg" alt="Davido"/>
+      <div>
+        <h2 class="name">Davido</h2>
+        <p>With his energetic style and philanthropy, Davido is a legend. From hits like “If” to co-founding DMW, he’s helped other young talents grow. His late son’s tragedy reminds us even stars face pain.</p>
+      </div>
+    </section>
+
+    <section class="artist" id="rodwave">
+      <img src="images/rodwave original.jpg" alt="Rod Wave"/>
+      <div>
+        <h2 class="name">Rod Wave</h2>
+        <p>Rod Wave’s music is full of emotion. Coming from struggle, heartbreak, and hardship, he uses pain as art. His authenticity makes people cry, smile, and feel seen.</p>
+      </div>
+    </section>
+
+    <section class="artist" id="polog">
+      <img src="images/polo g original.jpg" alt="Polo G"/>
+      <div>
+        <h2 class="name">Polo G</h2>
+        <p>Polo G rose from Chicago’s harsh streets to global fame. Songs like “RAPSTAR” and “Through da Storm” show pain, hope, and vision. A motivation for young artists never to give up.</p>
+      </div>
+    </section>
+
+    <section class="register" id="register">
+      <h2>Register for Motivation</h2>
+      <form onsubmit="handleSubmit(event)">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message..." required></textarea>
+        <button type="submit">Submit</button>
+        <p id="response"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with passion by <strong>Adeshina Attoe</strong></p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+  <script src="script/motivational artist.js"></script>
+</body>
+</html>
